@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.intro {
+  display: flex;
+  margin-bottom: 50px;
+}
+.intro-details h2 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 15px;
+}
+.intro-color {
+  color: orange;
+}
+.intro-image {
+  width: 90%;
+  position: center;
+  margin-top: 5%;
+  margin-left: 4%;
+  margin-right: 5%;
+}
+
+.intro-details {
+  width: 70%;
+  margin-left: 7%;
+  margin-top: 10%;
+}
+
+.button {
+  color: white;
+  background-image: linear-gradient(to right, orange, tomato);
+  padding: 13px;
+  margin-top: 70px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.about-me {
+  display: flex;
+  margin-bottom: 50px;
+  background-image: url(food/images/shapes/7.png);
+  background-repeat: no-repeat;
+}
+.about-image {
+  width: 40%;
+  position: center;
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-left: 20%;
+}
+.about-details {
+  width: 60%;
+  margin-left: 3%;
+  margin-top: 10%;
+  margin-right: 7%;
+}
+
+.recipie-font {
+  text-align: center;
+}
+.recipie-font p {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: small;
+  margin-bottom: 50px;
+}
+.recipie-item {
+  display: flex;
+}
+#pic1 {
+  width: 100%;
+  height: 50%;
+  border-radius: 15px;
+}
+
+#pic2 {
+  width: 100%;
+  height: 50%;
+  border-radius: 15px;
+}
+#pic3 {
+  width: 100%;
+  height: 50%;
+  border-radius: 15px;
+}
+
+.box-item {
+  width: 24%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  box-shadow: 0px 0px 15px rgb(196, 195, 195);
+  border-radius: 25px;
+  margin-bottom: 70px;
+}
+#margin1 {
+  margin-left: 10%;
+}
+#margin3 {
+  margin-right: 10%;
+}
+#margin2 {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.footer {
+  background-color: black;
+
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.footer span {
+  color: orange;
+}
