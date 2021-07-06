@@ -3,10 +3,57 @@ body {
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
+.header{
+  color: white;
+  background-color: rgb(141, 79, 89);
+}
+a, p, li, button{
+  text-decoration: none;
+  color:black;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 70px;
+}
 
+.logo{
+  font-weight: 500;
+  font-size: 20px;
+  padding: 0px 5px ;
+  cursor: pointer;
+  letter-spacing: 0.2em;
+}
+
+.logo span{
+  color: orange;
+}
+
+.links li{
+  list-style: none;
+  display: inline-block;
+  padding-top: 5px ;
+  transition: all .3s 0s;
+}
+.links li a{
+  margin: 0 15px;
+}
+.links li a:hover{
+  color: yellow;
+}
+button{
+  border: none;
+  background-image: linear-gradient(to right, orange, tomato);
+  border-radius: 20px;
+  margin: 18px 20px;
+  padding: 5px ;
+
+
+}
 .intro {
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 .intro-details h2 {
   font-size: 50px;
@@ -40,7 +87,7 @@ body {
 }
 .about-me {
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
   background-image: url(food/images/shapes/7.png);
   background-repeat: no-repeat;
 }
@@ -60,6 +107,7 @@ body {
 
 .recipie-font {
   text-align: center;
+  margin-bottom: 30px;
 }
 .recipie-font p {
   margin-left: 20%;
@@ -69,6 +117,7 @@ body {
 }
 .recipie-item {
   display: flex;
+  margin-bottom: 70px;
 }
 #pic1 {
   width: 100%;
@@ -115,6 +164,10 @@ body {
   font-size: 15px;
   padding-top: 10px;
   padding-bottom: 40px;
+}
+
+.footer p{
+  color: white;
 }
 
 .footer span {
